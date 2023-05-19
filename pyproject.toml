@@ -8,7 +8,11 @@ packages = [{include = "kuda_cli"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+typer = {extras = ["all"], version = "^0.9.0"}
+pykuda2 = "^0.1.2"
 
+[tool.poetry.scripts]
+kuda = "kuda_cli.main:run"
 
 [build-system]
 requires = ["poetry-core"]
