@@ -3,3 +3,4 @@ dist/
 .ruff_cache/
 .idea/
 .python-version
+build/
