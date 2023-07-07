@@ -1,1 +1,5 @@
 *.pyc
+dist/
+.ruff_cache/
+.idea/
+.python-version
