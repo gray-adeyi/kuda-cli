@@ -7,12 +7,16 @@ readme = "README.md"
 packages = [{include = "kuda_cli"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 typer = {extras = ["all"], version = "^0.9.0"}
 pykuda2 = "^0.1.2"
 
 [tool.poetry.scripts]
 kuda = "kuda_cli.main:run"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ruff = "^0.0.269"
 
 [build-system]
 requires = ["poetry-core"]
