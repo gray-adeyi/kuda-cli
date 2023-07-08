@@ -4,7 +4,7 @@ A command line app for interacting with kuda open API.
 ![utility in use](./kuda-cli.gif)
 
 ## Installation
-Binaries of kuda cli be found [here](). Alternatively, Kuda cli can be installed from pypi
+Binaries of kuda cli be found [here](https://github.com/gray-adeyi/kuda-cli/releases/tag/0.1.0). Alternatively, Kuda cli can be installed from pypi
 with pip as shown below.
 ```bash
 pip install kuda-cli
